@@ -1,0 +1,204 @@
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100vh;
+    background: url('11.jpg');
+    background-size: cover;
+    /* filter: blur(1px); */
+    z-index: -5;
+    filter: brightness(30%);
+}
+h1{
+    text-align: center;
+    color:purple;
+    text-decoration: underline;
+}
+
+.logo{
+    border-radius: 50%;
+    width: 95px;
+}
+
+.header{
+    display: flex;
+}
+
+#search{
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    height: 40px;
+    box-shadow: 5px;
+}
+
+.search{
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 550px;
+}
+
+body{
+    background-color: rgb(17, 201, 201);
+}
+
+.menu{
+    /* justify-content: space-between; */
+    justify-content:space-around;
+    display: grid;
+    display: flex;
+    padding: 10px;
+}
+
+.list1{
+    /* padding-left: 20px; */
+    padding: 10px;
+    background-color: hotpink;
+    font-style: italic;
+    text-decoration: solid;
+    font-weight: bold;
+    height: 20px;
+    border-radius: 5px;
+}
+.list1:hover{
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
+.list2:hover{
+  cursor:pointer;
+  background-color: blue;
+  color:aliceblue
+}
+.list3:hover{
+  cursor:pointer;
+  background-color: blue;
+  color:aliceblue
+}
+.list4:hover{
+  cursor:pointer;
+  background-color: blue;
+  color:aliceblue
+}
+.list5:hover{
+  cursor:pointer;
+  background-color: blue;
+  color:aliceblue
+}
+.list6:hover{
+  cursor:pointer;
+  background-color: blue;
+  color:aliceblue
+}
+.list7:hover{
+  cursor:pointer;
+  background-color: blue;
+  color:aliceblue
+}
+.list8:hover{
+  cursor:pointer;
+  background-color: rgb(255, 0, 149);
+  color:rgb(240, 242, 255)
+}
+
+.list2{
+    padding: 10px;
+    background-color: hotpink;
+    font-style: italic;
+    text-decoration: solid;
+    font-weight: bold;
+    height: 20px;
+    border-radius: 5px;
+}
+.list3{
+    padding: 10px;
+    background-color: hotpink;
+    font-style: italic;
+    text-decoration: solid;
+    font-weight: bold;
+    height: 20px;
+    border-radius: 5px;
+}
+.list4{
+    padding: 10px;
+    background-color: hotpink;
+    font-style: italic;
+    text-decoration: solid;
+    font-weight: bold;
+    height: 20px;
+    border-radius: 5px;
+}
+.list5{
+    /* padding-right: 40px; */
+    padding: 10px;
+    background-color: hotpink;
+    font-style: italic;
+    text-decoration: solid;
+    font-weight: bold;
+    height: 20px;
+    border-radius: 5px;
+}
+.list6{
+    /* padding-right: 40px; */
+    padding: 10px;
+    background-color: hotpink;
+    font-style: italic;
+    text-decoration: solid;
+    font-weight: bold;
+    height: 20px;
+    border-radius: 5px;
+}
+.list7{
+    /* padding-right: 40px; */
+    padding: 10px;
+    background-color: hotpink;
+    font-style: italic;
+    text-decoration: solid;
+    font-weight: bold;
+    height: 20px;
+    border-radius: 5px;
+}
+.list8{
+    /* padding-right: 40px; */
+    padding: 10px;
+    background-color: hotpink;
+    font-style: italic;
+    text-decoration: solid;
+    font-weight: bold;
+    height: 20px;
+    border-radius: 5px;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(10px); }
+}
+
+h1 {
+  animation: bounce 1.7s ease infinite;
+}
+
+
+.img1{
+    border-style: solid;
+    border-radius: 10px;
+    height: 450px;
+}
+
+.img1:hover{
+    transition-duration: 1s;
+    transform: translateY(-10px);
+    cursor: pointer;
+    border-color: blueviolet;
+}
+
+.sportspt ,p{
+    /* padding: -7px; */
+    margin-left: 100px;
+    color:red;
+    text-decoration: wavy;
+    font-style: italic;
+    font-size: x-large;
+}
