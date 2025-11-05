@@ -28,3 +28,18 @@ function movie(){
 }
 // document.getElementById("sportstext" document.wite)
 
+function youtube(){
+    window.open("https:youtube.com")
+}
+
+function music(){
+    window.open("https://spotify.com")
+}
+
+function sports2(){
+    window.location.href = "sports.html"
+}
+
+function gaming(){
+    window.location.href = "gaming.html"
+}
