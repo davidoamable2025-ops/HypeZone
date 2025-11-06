@@ -29,7 +29,7 @@ function movie(){
 // document.getElementById("sportstext" document.wite)
 
 function youtube(){
-    window.open("https:youtube.com")
+    window.open("https://youtube.com")
 }
 
 function music(){
@@ -43,3 +43,4 @@ function sports2(){
 function gaming(){
     window.location.href = "gaming.html"
 }
+
