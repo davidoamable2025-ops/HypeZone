@@ -1,16 +1,16 @@
 function insta(){
-    window.open("https:instagram.com")
+    window.open("https://instagram.com")
 }
 
 function tiktok(){
-    window.open("https:tiktok.com")
+    window.open("https://tiktok.com")
 }
 
 function anime(){
-    window.open("Https:anime-hive.vercel.app")
+    window.open("Https://anime-hive.vercel.app")
 }
 function chatgpt(){
-    window.open("https:chatgpt.com")
+    window.open("https://chatgpt.com")
 }
 
 function sports(){
